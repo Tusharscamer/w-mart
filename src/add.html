@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link href="./output.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a835322af7.js" crossorigin="anonymous"></script>
+</head>
+<body >
+<!-- main container -->
+  <main class="w-full flex justify-center ml-10 mt-10 ">
+    <div class=" bg-white   container">
+      <span class="text-3xl text-black font-extrabold mt-10 ml-10">Create new product</span>
+
+             <div class="bg-[#f8f4f4] w-full mt-10 p-5  border-2 border-gray-300 rounded-l-lg  text-2xl font-bold text-black  ">Product type</div>
+
+            <!-- app, game, movie, music, book container -->
+            <div class="bg-[#f8f4f4] w-full   p-5 flex  border-2 border-gray-300  items-center justify-evenly">
+                <button type="button" class="w-40 h-40 flex flex-col items-center justify-center bg-white   border-2 border-gray-300 hover:border-blue-600">
+                  <i class="fa-brands fa-adn text-5xl"></i>
+                  <span class="text-3xl text-black font-bold">App</span>
+                </button>
+                <button type="button" class="w-40 h-40 flex flex-col justify-center items-center bg-white   border-2 border-gray-300 hover:border-blue-600">
+                  <i class="fa-solid text-5xl fa-gamepad"></i>
+                  <span class="text-3xl text-black font-bold">Game</span>
+                </button>
+                <button type="button" class="w-40 h-40 flex flex-col justify-center items-center bg-white   border-2 border-gray-300 hover:border-blue-600">
+                  <i class="fa-solid text-5xl fa-film"></i>
+                  <span class="text-3xl text-black font-bold">Movie</span>
+                </button>
+                <button type="button" class="w-40 h-40 flex flex-col justify-center items-center bg-white   border-2 border-gray-300 hover:border-blue-600">
+                  <i class="fa-solid text-5xl fa-music"></i>
+                  <span class="text-3xl text-black font-bold">Music</span>
+                </button>
+                <button type="button" class="w-40 h-40 flex flex-col justify-center items-center bg-white   border-2 border-gray-300 hover:border-blue-600">
+                  <i class="fa-solid text-5xl fa-book"></i>
+                  <span class="text-3xl text-black font-bold">book</span>
+                </button>
+            </div>
+            <div>
+            <form action="" method="post">
+                <div class="bg-[#f8f4f4] w-full h-full  flex  border-2 border-gray-300  ">
+                   <div class="flex flex-col justify-center items-center ml-10 mt-10">
+                     <div class="flex flex-col space-y-5">
+                        <span class="text-3xl text-black font-semibold">Product Name</span>
+                        <input type="text" alt="" class="w-[700px] h-14  text-2xl px-5 border-2 border-gray-400 rounded-l-lg" placeholder="Enter product name">
+                      </div>
+
+                      <div class="flex  p-10">
+                        <div class="flex flex-col space-y-5 mt-14">
+                          <span class="text-3xl font-semibold text-black">Product Image </span>
+                          <input type="image" src="" alt="add Image" name="image" placeholder="" class=" w-60 h-60 bg-white border-4 border-zinc-500 text-2xl flex  justify-center items-center">
+                        </div>
+                        <div class="ml-10 space-y-10 ">
+                           <div>
+                            <span class="text-3xl text-black font-semibold">Feature </span>
+                           </div>
+                           <div class="flex items-center space-x-14">
+                            <input type="image" src="" alt="add Image" name="image" placeholder="" class=" w-60 h-80  bg-white border-4 border-zinc-500 text-2xl flex  justify-center items-center">
+                            <input type="image" src="" alt="add Image" name="image" placeholder="" class=" w-60 h-80  bg-white border-4 border-zinc-500 text-2xl flex justify-center items-center">
+                            <input type="image" src="" alt="add Image" name="image" placeholder="" class=" w-60 h-80  bg-white border-4 border-zinc-500 text-2xl flex justify-center items-center">
+                           </div>
+                        </div>
+                      </div>
+                      <div class="flex flex-col space-y-5 p-5">
+                        <span class="text-3xl text-black font-bold">Description </span></span>
+                        <textarea name="" id="" placeholder="type here..." cols="100" rows="10" id="" class="bg-white font-semibold text-xl text-black p-2" maxlength="500"></textarea>
+                      </div>
+                      <div>
+                        <span class="text-3xl text-black font-bold">Enter Source File </span></span>
+                        <div class="w-96 h-96 bg-slate-500 space-y-5 p-5">
+                           
+                        </div>
+                      </div>
+                   </div>
+                </div>
+            </form>
+        </div>
+      </div> 
+  </main>
+</body>
+</html>

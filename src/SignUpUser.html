@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Sign Up</title>
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a835322af7.js" crossorigin="anonymous"></script>
+<body>
+    <main>
+        <!-- Container of the Page -->
+        <div class=" bg-[#10243D] h-screen w-full ">
+            
+            <!-- Container for Welcome User -->
+            <div class="mx-80  ">
+
+                <!-- welcome box -->
+                <div>
+                    <!-- text -->
+                    <span class="text-[#EEEEEE] text-3xl">Welcome to</span>
+                </div>
+
+                <!-- Container for company Name -->
+                <div>
+                    <!-- text -->
+                    <span class="text-[#FFFFFF] text-7xl">Web</span>
+                    <!-- text -->
+                    <span class="text-[#DCB013] text-7xl">Mart</span>
+                </div>
+            </div>
+
+            <!--Container For Sign Up-->
+            <div class="bg-white text-3xl flex  h-[500px] w-[900px] mx-80 mt-4">
+
+                <!-- Container Section 1 Enter Deatails For Sign Up -->
+                <div class="flex flex-col w-1/2 h-full mx-10 mt-5">
+                    <!-- text -->
+                    <span class="text-5xl from-neutral-800 mt-4">Join Us</span>
+
+                    <!-- Sign Up Form -->
+                    <form action="/user/signup" autocomplete="off" method="post" class="flex flex-col mt-12 space-y-8">
+
+                        <!-- Box for User Name -->
+                        <div>
+                            <!-- Input First name -->
+                            <input type="text" placeholder="First Name"
+                                class="w-40 h-8 shadow-gray-500 shadow-md text-base" required>
+                            <!-- Input Last Name -->
+                            <input type="text" placeholder="Last Name"
+                                class="w-40 h-8 shadow-gray-500 shadow-md text-base" required>
+                        </div>
+
+                        <!-- Input Email -->
+                        <input type="email" placeholder="Email" class="w-80 h-8  shadow-gray-500 shadow-md text-base"
+                            required>
+
+                        <!-- Input Password -->
+                        <input type="password" placeholder="Password"
+                            class="w-60 h-8  shadow-gray-500 shadow-md text-base" required>
+
+                        <!-- Box of terms and Condition of organitation -->
+                        <div class="flex space-x-4">
+                            
+                            <!-- Chekbox  -->
+                            <input type="checkbox" class="w-4 cursor-pointer">
+
+                            <!-- Box of Text for terms and condtions -->
+                            <div class="text-base">
+                                <!-- Text -->
+                                <span>I agree Web Mart's Terms and</span>
+                            </div>
+                        </div>
+
+                        <!-- For submit of Form -->
+                        <input type="submit" value="Sign Up"
+                            class="bg-[#10243D] text-[#FFFFFF] w-60 h-12 mt-5 cursor-pointer rounded-3xl">
+                    </form>
+                </div>
+
+                <!-- Container For Sign Up As Options -->
+                <div class="flex w-1/2 h-full ">
+
+                    <!-- Box of Buttons -->
+                    <div class="flex flex-col text-base justify-center space-y-20 mx-32">
+
+                        <!-- Button for Continue With Google -->
+                        <button type="button" class="shadow-md shadow-gray-500 w-52 h-10 rounded-2xl space-x-5">
+                            <!-- Text -->
+                            <span>Continue with</span>
+                            <!-- Google Logo -->
+                            <i class="bg-gradient-to-r from-red-700 to-yellow-500 to-blue-500 p-2 rounded-full text-white fa-brands fa-google "></i>
+                        </button>
+
+                        <!-- Button for Continue With Linkedin -->
+                        <button type="button" class="shadow-md shadow-gray-500 w-52 h-10 rounded-2xl space-x-5 bg-[#10243D] text-white">
+                            <!-- Text -->
+                            <span>Continue with</span>
+                            <!-- Linkedin Logo -->
+                            <i class="bg-[#2967B2] rounded-full text-white p-2 w-8 h-8  fa-brands fa-linkedin-in"></i>
+                        </button>
+
+                        <!-- Button for Continue With Github -->
+                        <button type="button" class="shadow-md shadow-gray-500 w-52 h-10 rounded-2xl space-x-5 bg-[#10243D] text-white">
+                            <!-- Text -->
+                            <span>Continue with</span>
+                            <!-- GitHub Logo -->
+                            <i class="p-2 bg-[#231E1B] rounded-full text-white fa-brands fa-github"></i>
+                        </button>
+
+                        <!-- Button for Continue With Facebook -->
+                        <button type="button" class="shadow-md shadow-gray-500 w-52 h-10 rounded-2xl space-x-5 bg-[#10243D] text-white ">
+                            <!-- Text -->
+                            <span>Continue with</span>
+                            <!-- Facebook Logo -->
+                            <i class="bg-[#1977F2] rounded-full p-2 text-white  fa-brands fa-facebook"></i>
+                        </button>
+                    </div>
+                </div>
+             </div>
+          </div>
+    </main>
+</body>
+
+</html>                                          <!-- Text -->

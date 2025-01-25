@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Login</title>
+  <link href="./output.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a835322af7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body >
+  <main>
+    <div class="flex ">
+       <!--box that contains whole login in Section -->
+  <div class="bg-[#10243D] h-screen w-1/2 flex flex-col items-center ">
+
+    <!-- heading at login side -->
+    <span class="text-[#FFFFFF] text-3xl flex mt-10">Login As User</span>
+
+    <!-- user image logo box -->
+    <div class="userLogo rounded-full bg-[#47514e] flex w-28 h-28  mt-14">
+     
+    </div>
+
+     <!-- form to input login credential -->
+    <form action="/developer/signin" autocomplete="off" method="post" class="mt-14  flex flex-col ">
+
+      <!-- input email address -->
+      <input type="email" name="" class="eamil bg-[#10243D] text-[#FFFFFF] w-60   shadow-white shadow-sm"
+        placeholder="Email" required />
+
+      <!-- input password -->
+      <input type="password" name="" class="password text-[#FFFFFF] bg-[#10243D] w-60  shadow-white shadow-sm  mt-5"
+        placeholder="Password" required />
+
+      <!-- login Button to sumbit form-->
+      <input type="submit" value="Login"
+        class="text-[#10243D] bg-[#FFFFFF] flex   mt-10 w-72 h-10 rounded-2xl cursor-pointer text-xl hover:bg-slate-500 shadow-sm shadow-slate-400" />
+    </form>
+
+     <!-- box for remember me checkbox -->
+    <div class=" mt-5  mr-28 ">
+      <!-- Remember me checkbox -->
+      <input type="checkbox" name="checkbox" id="" />
+      <!-- Text of Remember me button -->
+      <span class="text-[#FFFFFF]">Remember me</span>
+    </div>
+
+    <!-- box for forgot password  -->
+    <div class=" mr-28 text-[#FFFFFF]">
+      <!-- forgot password button -->
+      <button type="button" class="hover:font-semibold">Forgot password</button>
+    </div>
+
+    <!-- Box that provide path for Sign Up page -->
+    <div class="SignUp mt-1">
+      <!-- Asking user for Sign Up -->
+      <span class="text-[#FFFFFF]">Don't have an account ?</span>
+      <!-- Sign Up button -->
+      <a href="/developer/signup" class="text-[#FFFFFF] underline font-semibold">Sign Up</a>
+    </div>
+  </div>
+
+<!-- Section 2 for Welcome user -->
+  <div class="h-screen w-1/2">
+
+    <!-- Welcomeing user threw text -->
+    <span class="text-[#10243D] text-3xl flex mx-36 mt-24">Welcome back to</span>
+
+     <!-- Box of Company Name -->
+    <div class="mx-36 space-x-2">
+      <span class="text-[#10243D] text-7xl ">Web</span>
+      <span class="text-7xl text-[#DCB013]">Mart</span>
+    </div>
+
+     <!-- Text -->
+    <span class="text-[#10243D] text-7xl flex mx-36 ">Community</span>
+
+    <!-- Company's Logo -->
+     <div class="logo"></div>
+
+    <!--Box 1 of Different Login Options-->
+    <div class="flex space-x-20 mt-64 mx-36">
+
+      <!-- Button for  Continue with Google -->
+      <button type="button" class="bg-[#10243D] text-[#FFFFFF] w-60 h-10 rounded-2xl shadow-md shadow-slate-600 hover:bg-slate-500 space-x-5">
+        <!-- text -->
+        <span>Continue With</span>
+        <!-- Logo Google -->
+        <i class="fa-brands fa-google "></i>
+      </button>
+
+      <!-- Button for Continue With  Linkedin-->
+      <button type="button" class="bg-[#10243D] text-[#FFFFFF] w-60 h-10 rounded-2xl shadow-md shadow-slate-600 hover:bg-slate-500 space-x-5">
+        <!-- text -->
+        <span>Continue With</span>
+        <!-- Logo of Linkedin -->
+        <i class="fa-brands fa-linkedin-in"></i>
+      </button>
+    </div>
+
+    <!--Box 2 of Different Login Options-->
+    <div class="flex space-x-20 mt-10 mx-36">
+
+       <!-- Button for Continue With  GitHub-->
+      <button type="button" class="bg-[#10243D] text-[#FFFFFF] w-60 h-10 rounded-2xl shadow-md shadow-slate-600 hover:bg-slate-500 space-x-5"> 
+        <!-- text -->
+        <span>Continue With</span>
+        <!-- Logo of GitHub -->
+        <i class="fa-brands fa-github"></i>
+      </button>
+
+        <!-- Button for Continue With  Facebook-->
+      <button type="button" class="bg-[#10243D] text-[#FFFFFF] w-60 h-10  rounded-2xl shadow-md shadow-slate-600 hover:bg-slate-500 space-x-5"> 
+        <!-- text -->
+        <span>Continue With</span>
+        <!-- Logo of Facebook -->
+        <i class="fa-brands fa-facebook"></i>
+      </button>
+    </div>
+  <div>
+    </div>
+  </main>
+  <script src="./LoginDev.js"></script>
+</body>
+</html>
